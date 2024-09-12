@@ -214,6 +214,19 @@
       <button class="col-lg-12 col-md-6 col-xs-12 feature-item h4 accordion.text"><strong>Variables</strong></button>
       <div class="panel">
 
+        <div class="col-lg-12 col-md-6 col-xs-12 feature-item">
+        <h4>El DataFrame contiene 22 columnas y 2,938 filas, con diferentes tipos de datos</h4>
+        <ol class="a">
+          <li>
+            <p><strong>Tipos de datos:</strong> Hay 16 columnas de tipo float64, 4 columnas de tipo int64, y 2 columnas de tipo object (para datos categóricos)</p>
+          </li>
+          
+          <li>
+            <p><strong>Valores nulos:</strong> Algunas columnas tienen valores nulos, como Life expectancy, Adult Mortality, Alcohol, Hepatitis B, BMI, Polio, Total expenditure, GDP, Population, Income composition of resources, y Schooling</p>
+          </li>
+        </ol>
+        
+        </div>
       <div class="row featured-bg">
 
         <!-- Start Col -->
@@ -329,10 +342,1342 @@
   </div>
   </div>
   </div>
-  <br><br>
 
 
 
+  <button class="col-lg-12 col-md-6 col-xs-12 feature-item h4 accordion.text"><strong>Análisis Univariado</strong></button>
+  <div class="panel">
+    <div class="row featured-bg">
+      <!-- Start Col -->
+      <div class="col-lg-12 col-md-6 col-xs-12 p-0">
+        <div class="column col-lg-9">
+          <div class="feature-info float-left">
+            <br><h3>Variables Numéricas</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-xs-12 p-0">
+        <!-- Start Fetatures -->
+       <div class="feature-item">
+        <div class="row">
+          <div class="column col-lg-3">
+            <div class="feature-icon float-left">
+              <i class="lni-calendar"></i>
+            </div>  
+          </div>
+          <div class="column col-lg-9">
+            <div class="feature-info float-left">
+              <h4>Años (Years)</h4>
+              <div class="text-slideshow-container">
+                <div class="myTextSlides1">
+                  <p>Los datos abarcan desde el año 2000 hasta el 2015. La baja desviación estándar indica una distribución uniforme de los datos a lo largo del tiempo.</p>
+                </div>
+                <div class="myTextSlides1">
+                  <p>La distribución es uniforme, indicando que los datos están igualmente representados a lo largo de los años, desde 2000 hasta 2015.</p>
+                </div>
+                <div class="myTextSlides1">
+                  <p>Todos los datos son consistentemente anuales desde 2000 hasta 2015, sin valores atípicos, reflejando un intervalo de tiempo uniforme.</p>
+                </div>
+              </div>
+              <div class="dot-container">
+                <span class="text-dot" onclick="TextcurrentSlide(1, 0)"></span> 
+                <span class="text-dot" onclick="TextcurrentSlide(2, 0)"></span> 
+                <span class="text-dot" onclick="TextcurrentSlide(3, 0)"></span> 
+              </div>
+            </div>  
+          </div>
+        </div>
+        <div class="row">
+          <br>
+        </div>
+        <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+          <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+            <div class="feature-item">
+              <div class="slideshow-container">
+                <div class="mySlides1">
+                  <img src="img/business/business-img.png" style="width: 500px;" alt="">
+                </div>
+                <div class="mySlides1">
+                  <img src="img/business/business-img.png" style="width: 500px;" alt="">
+                </div>
+                <div class="mySlides1">
+                  <img src="img/business/business-img.png" style="width: 500px;" alt="">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+              </div>
+            </div>
+          </div> 
+     </div>
+     <!-- End Fetatures -->
+   </div>
+    <!-- End Col -->
+
+
+      
+      <!-- Start Col -->
+      <div class="col-lg-6 col-md-6 col-xs-12 p-0">
+        <!-- Start Fetatures -->
+       <div class="feature-item">
+        <div class="row">
+          <div class="column col-lg-3">
+            <div class="feature-icon float-left">
+              <i class="lni-timer"></i>
+            </div>  
+          </div>
+          <div class="column col-lg-9">
+            <div class="feature-info float-left">
+              <h4>Esperanza de Vida (Life expectancy)</h4>
+              <div class="text-slideshow-container">
+                <div class="myTextSlides2">
+                  <p>La esperanza de vida varía entre 36.3 y 89 años, lo que sugiere una gran disparidad posiblemente atribuible a diferencias en el desarrollo sanitario y económico entre países. </p>
+                </div>
+                <div class="myTextSlides2">
+                  <p>La mayoría de los países tienen una esperanza de vida entre 60 y 80 años, con un pico notable alrededor de los 70 años. Esto sugiere una mejora en las condiciones de vida y salud en muchos países.  </p>
+                </div>
+                <div class="myTextSlides2">
+                  <p>Los valores típicos están entre los 60 y 80 años aproximadamente. Hay varios valores atípicos en la parte baja, sugiriendo países con esperanzas de vida notablemente menores.</p>
+                </div>
+              </div>
+              <div class="dot-container">
+                <span class="text-dot" onclick="TextcurrentSlide(1, 1)"></span> 
+                <span class="text-dot" onclick="TextcurrentSlide(2, 1)"></span> 
+                <span class="text-dot" onclick="TextcurrentSlide(3, 1)"></span> 
+              </div>
+            </div>  
+          </div>
+        </div>
+        <div class="row">
+          <br>
+        </div>
+        <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+          <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+            <div class="feature-item">
+              <div class="slideshow-container">
+                <div class="mySlides2">
+                  <img src="img/business/business-img.png" style="width: 500px;" alt="">
+                </div>
+                <div class="mySlides2">
+                  <img src="img/business/business-img.png" style="width: 500px;" alt="">
+                </div>
+                <div class="mySlides2">
+                  <img src="img/business/business-img.png" style="width: 500px;" alt="">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+              </div>
+            </div>
+          </div> 
+     </div>
+     <!-- End Fetatures -->
+   </div>
+    <!-- End Col -->
+
+    <!-- Start Col -->
+    <div class="col-lg-6 col-md-6 col-xs-12 p-0">
+      <!-- Start Fetatures -->
+     <div class="feature-item">
+      <div class="row">
+        <div class="column col-lg-3">
+          <div class="feature-icon float-left">
+            <i class="lni-ambulance"></i>
+          </div>  
+        </div>
+        <div class="column col-lg-9">
+          <div class="feature-info float-left">
+            <h4>Mortalidad Adulta (Adult Mortality)</h4>
+            <div class="text-slideshow-container">
+              <div class="myTextSlides3">
+                <p>Con valores desde 1 hasta 723 por 1000 habitantes, este indicador también muestra una amplia variabilidad, reflejando las distintas condiciones de salud y médicas entre las poblaciones.</p>
+              </div>
+              <div class="myTextSlides3">
+                <p>La distribución muestra una prevalencia de tasas de mortalidad adulta más bajas, pero con una larga cola hacia valores más altos, indicando que algunos países todavía enfrentan desafíos significativos en salud adulta.</p>
+              </div>
+              <div class="myTextSlides3">
+                <p>La mayoría de los datos se agrupan en un rango inferior a 200, pero hay numerosos valores atípicos altos, lo que indica países con tasas de mortalidad adulta significativamente más elevadas.</p>
+              </div>
+            </div>
+            <div class="dot-container">
+              <span class="text-dot" onclick="TextcurrentSlide(1, 2)"></span> 
+              <span class="text-dot" onclick="TextcurrentSlide(2, 2)"></span> 
+              <span class="text-dot" onclick="TextcurrentSlide(3, 2)"></span> 
+            </div>
+          </div>  
+        </div>
+      </div>
+      <div class="row">
+        <br>
+      </div>
+      <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+        <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+          <div class="feature-item">
+            <div class="slideshow-container">
+              <div class="mySlides3">
+                <img src="img/business/business-img.png" style="width: 500px;" alt="">
+              </div>
+              <div class="mySlides3">
+                <img src="img/business/business-img.png" style="width: 500px;" alt="">
+              </div>
+              <div class="mySlides3">
+                <img src="img/business/business-img.png" style="width: 500px;" alt="">
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+            </div>
+          </div>
+        </div> 
+   </div>
+   <!-- End Fetatures -->
+ </div>
+  <!-- End Col -->
+
+
+    
+    <!-- Start Col -->
+    <div class="col-lg-6 col-md-6 col-xs-12 p-0">
+      <!-- Start Fetatures -->
+     <div class="feature-item">
+      <div class="row">
+        <div class="column col-lg-3">
+          <div class="feature-icon float-left">
+            <i class="lni-heart-monitor"></i>
+          </div>  
+        </div>
+        <div class="column col-lg-9">
+          <div class="feature-info float-left">
+            <h4>Mortalidad Infantil (Infant Deaths)</h4>
+            <div class="text-slideshow-container">
+              <div class="myTextSlides4">
+                <p>El rango va de 0 a 1800 muertes, indicando variaciones extremas que podrían estar influenciadas por factores como el acceso a la atención médica prenatal y neonatal.</p>
+              </div>
+              <div class="myTextSlides4">
+                <p>Esta variable tiene una distribución sesgada hacia la izquierda, con la mayoría de los países reportando números bajos de muertes infantiles, pero con algunos valores extremadamente altos.</p>
+              </div>
+              <div class="myTextSlides4">
+                <p>Se observan muchos valores atípicos altos, mostrando países con números desproporcionadamente altos de muertes infantiles comparado con la mayoría.</p>
+              </div>
+            </div>
+            <div class="dot-container">
+              <span class="text-dot" onclick="TextcurrentSlide(1, 3)"></span> 
+              <span class="text-dot" onclick="TextcurrentSlide(2, 3)"></span> 
+              <span class="text-dot" onclick="TextcurrentSlide(3, 3)"></span> 
+            </div>
+          </div>  
+        </div>
+      </div>
+      <div class="row">
+        <br>
+      </div>
+      <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+        <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+          <div class="feature-item">
+            <div class="slideshow-container">
+              <div class="mySlides4">
+                <img src="img/business/business-img.png" style="width: 500px;" alt="">
+              </div>
+              <div class="mySlides4">
+                <img src="img/business/business-img.png" class="width: 500px;" alt="">
+              </div>
+              <div class="mySlides4">
+                <img src="img/business/business-img.png" class="width: 500px;" alt="">
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+            </div>
+          </div>
+        </div> 
+   </div>
+   <!-- End Fetatures -->
+ </div>
+  <!-- End Col -->
+
+
+
+
+
+
+
+  <!-- Start Col -->
+  <div class="col-lg-6 col-md-6 col-xs-12 p-0">
+    <!-- Start Fetatures -->
+   <div class="feature-item">
+    <div class="row">
+      <div class="column col-lg-3">
+        <div class="feature-icon float-left">
+          <i class="lni-cross-circle"></i>
+        </div>  
+      </div>
+      <div class="column col-lg-9">
+        <div class="feature-info float-left">
+          <h4>Consumo de Alcohol (Alcohol expenditure)</h4>
+          <div class="text-slideshow-container">
+            <div class="myTextSlides5">
+              <p>El consumo reportado varía significativamente, con países que no registran consumo y otros con un promedio alto, reflejando diferencias culturales y políticas sobre el consumo de alcohol.</p>
+            </div>
+            <div class="myTextSlides5">
+              <p>Predominantemente baja, con la mayoría de los países teniendo un consumo de alcohol de menos de 5 litros per cápita anualmente.</p>
+            </div>
+            <div class="myTextSlides5">
+              <p>La mayoría de los valores están cerca de cero con algunos valores atípicos altos, mostrando variaciones significativas en el consumo entre países.</p>
+            </div>
+          </div>
+          <div class="dot-container">
+            <span class="text-dot" onclick="TextcurrentSlide(1, 4)"></span> 
+            <span class="text-dot" onclick="TextcurrentSlide(2, 4)"></span> 
+            <span class="text-dot" onclick="TextcurrentSlide(3, 4)"></span> 
+          </div>
+        </div>  
+      </div>
+    </div>
+    <div class="row">
+      <br>
+    </div>
+    <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+      <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+        <div class="feature-item">
+          <div class="slideshow-container">
+            <div class="mySlides5">
+              <img src="img/business/business-img.png" style="width: 500px;" alt="">
+            </div>
+            <div class="mySlides5">
+              <img src="img/business/business-img.png" style="width: 500px;" alt="">
+            </div>
+            <div class="mySlides5">
+              <img src="img/business/business-img.png" style="width: 500px;" alt="">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+          </div>
+        </div>
+      </div> 
+ </div>
+ <!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+  
+  <!-- Start Col -->
+  <div class="col-lg-6 col-md-6 col-xs-12 p-0">
+    <!-- Start Fetatures -->
+   <div class="feature-item">
+    <div class="row">
+      <div class="column col-lg-3">
+        <div class="feature-icon float-left">
+          <i class="lni-first-aid"></i>
+        </div>  
+      </div>
+      <div class="column col-lg-9">
+        <div class="feature-info float-left">
+          <h4>Gasto en Salud (% del PIB) (percentage expenditure)</h4>
+          <div class="text-slideshow-container">
+            <div class="myTextSlides6">
+              <p>Este porcentaje tiene un rango muy amplio, lo que puede indicar diferencias en la priorización del gasto en salud en diferentes economías.</p>
+            </div>
+            <div class="myTextSlides6">
+              <p>Hay una concentración de países con bajo porcentaje de gasto, pero con algunos casos extremos que gastan significativamente más, probablemente reflejando políticas de salud pública fuertes.</p>
+            </div>
+            <div class="myTextSlides6">
+              <p>La distribución es muy sesgada con muchos valores cercanos a cero y algunos valores atípicos extremadamente altos, indicando países que gastan mucho más en salud en proporción a su PIB.</p>
+            </div>
+          </div>
+          <div class="dot-container">
+            <span class="text-dot" onclick="TextcurrentSlide(1, 5)"></span> 
+            <span class="text-dot" onclick="TextcurrentSlide(2, 5)"></span> 
+            <span class="text-dot" onclick="TextcurrentSlide(3, 5)"></span> 
+          </div>
+        </div>  
+      </div>
+    </div>
+    <div class="row">
+      <br>
+    </div>
+    <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+      <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+        <div class="feature-item">
+          <div class="slideshow-container">
+            <div class="mySlides6">
+              <img src="img/business/business-img.png" style="width: 500px;" alt="">
+            </div>
+            <div class="mySlides6">
+              <img src="img/business/business-img.png" class="width: 500px;" alt="">
+            </div>
+            <div class="mySlides6">
+              <img src="img/business/business-img.png" class="width: 500px;" alt="">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+          </div>
+        </div>
+      </div> 
+ </div>
+ <!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-syringe"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Hepatitis B</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides7">
+            <p>La amplia variación en los casos reportados (de 1 a 99 por 1000 habitantes) podría reflejar tanto diferencias en la prevalencia de la enfermedad como en la eficacia de los programas de vacunación.</p>
+          </div>
+          <div class="myTextSlides7">
+            <p>La distribución tiene dos picos, sugiriendo que algunos países tienen tasas muy bajas de incidencia mientras que otros tienen coberturas de vacunación altas.</p>
+          </div>
+          <div class="myTextSlides7">
+            <p>La cobertura o incidencia parece ser alta en la mayoría de los países, con algunos valores atípicos bajos.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 6)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 6)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 6)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides7">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides7">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides7">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-capsule"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Sarampión (Measles)</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides8">
+            <p>El número de casos reportados varía enormemente, lo que podría indicar brotes en ciertos años o en ciertas regiones.</p>
+          </div>
+          <div class="myTextSlides8">
+            <p>La mayoría de los países reportan casos bajos, con algunos picos indicando brotes esporádicos significativos.</p>
+          </div>
+          <div class="myTextSlides8">
+            <p>Presenta una cantidad considerable de valores atípicos altos, posiblemente reflejando brotes en ciertos años o países.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 7)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 7)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 7)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides8">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides8">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+          <div class="mySlides8">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 7)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-candy"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Índice de Masa Corporal (BMI)</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides9">
+            <p>El rango de 1 a 87 muestra variabilidad en los niveles de nutrición y salud general entre diferentes poblaciones.</p>
+          </div>
+          <div class="myTextSlides9">
+            <p>Distribución bimodal, indicando dos grupos predominantes en términos de salud nutricional.</p>
+          </div>
+          <div class="myTextSlides9">
+            <p>Exhibe un rango amplio de valores con un grupo principal entre 20 y 60 y algunos valores atípicos altos.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 8)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 8)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 8)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides9">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides9">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides9">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 8)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 8)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-shovel"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Mortalidad Menores de Cinco Años (under-five deaths)</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides10">
+            <p>Con un máximo de 2500, este dato es crucial para evaluar la salud infantil global.</p>
+          </div>
+          <div class="myTextSlides10">
+            <p>Similar a la mortalidad infantil, con una cola larga hacia valores altos, reflejando situaciones críticas en ciertos países.</p>
+          </div>
+          <div class="myTextSlides10">
+            <p>Similar a la mortalidad infantil, con muchos valores atípicos altos, indicando problemas graves en algunos países.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 9)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 9)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 9)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides10">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides10">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+          <div class="mySlides10">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 9)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 9)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-stethoscope"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Polio</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides11">
+            <p>La variabilidad desde 3 hasta 99 casos por 1000 habitantes puede reflejar diferencias en la cobertura de vacunación.</p>
+          </div>
+          <div class="myTextSlides11">
+            <p>Concentración de datos cerca de cero con algunos picos altos, posiblemente indicando brotes o fallos en la vacunación.</p>
+          </div>
+          <div class="myTextSlides11">
+            <p>La mayoría de los valores son altos, cercanos al 100, con algunos valores atípicos bajos que sugieren tasas de vacunación más bajas.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 10)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 10)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 10)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides11">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides11">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides11">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 10)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 10)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-dollar"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Gasto Total en Salud (Total expenditure)</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides12">
+            <p>La desviación estándar alta muestra diferencias significativas en cómo los países invierten en salud respecto a su economía total.</p>
+          </div>
+          <div class="myTextSlides12">
+            <p>Distribución más o menos normal, centrada alrededor de un gasto del 5-10% del PIB.</p>
+          </div>
+          <div class="myTextSlides12">
+            <p>Distribución relativamente simétrica con algunos valores atípicos en ambos extremos.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 11)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 11)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 11)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides12">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides12">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+          <div class="mySlides12">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 11)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 11)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-syringe"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Difteria</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides13">
+            <p>Al igual que con polio y hepatitis B, la variabilidad sugiere diferencias en la cobertura de vacunación y posiblemente en la notificación de casos.</p>
+          </div>
+          <div class="myTextSlides13">
+            <p>Muy similar a la distribución de Polio, indicando una posible correlación en las intervenciones de vacunación.</p>
+          </div>
+          <div class="myTextSlides13">
+            <p>La mayoría de los países tienen altas tasas de vacunación con algunos valores atípicos bajos.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 12)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 12)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 12)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides13">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides13">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides13">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 12)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 12)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-capsule"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>HIV/AIDS</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides14">
+            <p>Los valores extremos en esta columna indican la disparidad en la prevalencia del VIH/SIDA entre las poblaciones.</p>
+          </div>
+          <div class="myTextSlides14">
+            <p>Concentración en valores bajos con algunos casos extremos, reflejando la prevalencia de la enfermedad en ciertas regiones.</p>
+          </div>
+          <div class="myTextSlides14">
+            <p>La mayoría de los valores están cerca de cero, pero hay algunos extremadamente altos, reflejando las regiones más afectadas por la epidemia.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 13)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 13)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 13)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides14">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides14">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+          <div class="mySlides14">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 13)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 13)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-dollar"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Producto Interno Bruto (GDP)</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides15">
+            <p>Un rango extremadamente amplio desde muy bajos a muy altos valores, reflejando la diversidad económica entre los países.</p>
+          </div>
+          <div class="myTextSlides15">
+            <p>Distribución muy sesgada con una mayoría de países en el rango más bajo y algunos valores extremadamente altos.</p>
+          </div>
+          <div class="myTextSlides15">
+            <p>Muchos valores atípicos altos, destacando la disparidad económica entre países.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 14)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 14)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 14)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides15">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides15">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides15">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 14)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 14)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-users"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Población (Population)</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides16">
+            <p>El rango desde 34 hasta casi 1.29 mil millones ilustra la diversidad de tamaños de las poblaciones nacionales.</p>
+          </div>
+          <div class="myTextSlides16">
+            <p>Altamente sesgada hacia la izquierda, con la mayoría de los países teniendo poblaciones más pequeñas y unos pocos con poblaciones muy grandes.</p>
+          </div>
+          <div class="myTextSlides16">
+            <p>La mayoría de los países tienen poblaciones menores, con valores atípicos extremadamente altos que representan a países muy poblados.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 15)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 15)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 15)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides16">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides16">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+          <div class="mySlides16">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 15)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 15)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start Col -->
+<div class="col-lg-6 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item ">
+  <div class="row">
+    <div class="column col-lg-3">
+      <div class="feature-icon float-left">
+        <i class="lni-weight"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Desnutrición 1-19 años (thinness 1-19 years) y Desnutrición 5-9 años (thinness 5-9 years)</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides17">
+            <p>Estos indicadores muestran la prevalencia de la desnutrición en diferentes grupos de edad, con una variabilidad que puede indicar problemas de salud pública y acceso a alimentos.</p>
+          </div>
+          <div class="myTextSlides17">
+            <p>Ambas variables muestran distribuciones similares, sesgadas hacia valores bajos con algunos países reportando tasas más altas de desnutrición.</p>
+          </div>
+          <div class="myTextSlides17">
+            <p>Ambos presentan una concentración de valores bajos con varios valores atípicos altos, indicando problemas nutricionales específicos en ciertas áreas.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 16)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 16)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 16)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides17">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides17">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides17">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 16)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 16)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+<!-- Start Col -->
+<div class="col-lg- col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-3 ">
+      <div class="feature-icon float-left">
+        <i class="lni-money-location"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Escolaridad (Schooling)</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides18">
+            <p>Un rango de 0 a 20.7 años en escolaridad refleja la diversidad en el acceso y la calidad de la educación entre diferentes regiones.</p>
+          </div>
+          <div class="myTextSlides18">
+            <p>La distribución es aproximadamente normal, centrada alrededor de 10-12 años, indicando niveles generales de educación alcanzados.</p>
+          </div>
+          <div class="myTextSlides18">
+            <p>Los datos son relativamente simétricos alrededor de 10-12 años con algunos valores atípicos en ambos extremos, sugiriendo variaciones en la duración de la educación formal.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 17)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 17)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 17)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides18">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides18">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+          <div class="mySlides18">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 17)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 17)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+<!-- Start Col -->
+<div class="col-lg-12 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-2">
+      <div class="feature-icon float-left">
+        <i class="lni-dollar"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Composición de Ingresos (Income composition of resources)</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides19">
+            <p>Este indicador económico muestra cómo se distribuyen los ingresos y recursos dentro de un país, con una variabilidad significativa que indica diferentes niveles de igualdad económica.</p>
+          </div>
+          <div class="myTextSlides19">
+            <p>La mayoría de los países tienen una composición de ingresos intermedia, con una distribución aproximadamente normal.</p>
+          </div>
+          <div class="myTextSlides19">
+            <p>Una distribución bastante simétrica con algunos valores atípicos bajos.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 18)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 18)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 18)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides19">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides19">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+          <div class="mySlides19">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 18)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 18)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+
+<div class="col-lg-12 col-md-6 col-xs-12 p-0">
+  <div class="column col-lg-9">
+    <div class="feature-info float-left">
+      <br><h3>Variables Categóricas</h3>
+    </div>
+  </div>
+</div>
+
+<!-- Start Col -->
+<div class="col-lg-12 col-md-6 col-xs-12 p-0">
+  <!-- Start Fetatures -->
+ <div class="feature-item">
+  <div class="row">
+    <div class="column col-lg-2">
+      <div class="feature-icon float-left">
+        <i class="lni-money-location"></i>
+      </div>  
+    </div>
+    <div class="column col-lg-9">
+      <div class="feature-info float-left">
+        <h4>Estatus de País (Status)</h4>
+        <div class="text-slideshow-container">
+          <div class="myTextSlides20">
+            <strong>Desarrollando (Developing):</strong>
+            <p>Representado en rojo, abarca la gran mayoría, con un 82.5% de los países. Esto indica que la mayoría de los países del mundo son clasificados como en desarrollo, lo cual implica menores niveles de ingresos, infraestructura menos avanzada y, generalmente, peores indicadores de salud y educación en comparación con los países desarrollados.</p>
+          </div>
+          <div class="myTextSlides20">
+            <strong>Desarrollado (Developed):</strong>
+            <p>En verde, representa solo el 17.5% de los países. Estos países suelen tener economías más robustas, sistemas de salud y educación avanzados, y mejor calidad de vida en general.</p>
+          </div>
+          <div class="myTextSlides20">
+            <strong>Concentración de países desarrollados:</strong>
+            <p>Los países desarrollados, marcados en verde, están principalmente en América del Norte, Europa y algunas partes de Asia del Este y Australasia. Esto refleja patrones comunes de alto desarrollo económico y mejores indicadores de salud en estas regiones.</p>
+          </div>
+          <div class="myTextSlides20">
+            <strong>Predominancia de países en desarrollo:</strong>
+            <p>La mayoría de los países en desarrollo, indicados en rojo, se encuentran en África, Asia Central y del Sur, y América Latina. Estas regiones suelen enfrentar desafíos en términos de acceso a servicios de salud de calidad y otros factores socioeconómicos que impactan directamente en la esperanza de vida.</p>
+          </div>
+        </div>
+        <div class="dot-container">
+          <span class="text-dot" onclick="TextcurrentSlide(1, 19)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(2, 19)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(3, 19)"></span> 
+          <span class="text-dot" onclick="TextcurrentSlide(4, 19)"></span> 
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="row">
+    <br>
+  </div>
+  <button class="accordion col-lg-6 col-md-6 col-xs-12 p-0 feature-item2 accordion.text"><strong>Mostrar Gráficas</strong></button>
+    <div class="row col-lg-12 col-md-6 col-xs-12 p-0 panel">
+      <div class="feature-item">
+        <div class="slideshow-container">
+          <div class="mySlides20">
+            <img src="img/business/business-img.png" style="width: 500px;" alt="">
+          </div>
+          <div class="mySlides20">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+          <div class="mySlides20">
+            <img src="img/business/business-img.png" class="width: 500px;" alt="">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 19)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 19)">&#10095;</a>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- End Fetatures -->
+</div>
+<!-- End Col -->
+
+</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
   <ol class="text" style="--length: 5" role="list">
     <li class="text" style="--i: 1">
@@ -399,107 +1744,7 @@
 </div>
 
 
-  <div class="row featured-bg">
-     <!-- Start Col -->
-      <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-         <!-- Start Fetatures -->
-        <div class="feature-item featured-border1">
-           <div class="feature-icon float-left">
-             <i class="lni-coffee-cup"></i>
-           </div>
-           <div class="feature-info float-left">
-             <h4>Easy to Customize</h4>
-             <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a decade,<br> we understand that’s your.</p>
-           </div>
-        </div>
-        <!-- End Fetatures -->
-      </div>
-       <!-- End Col -->
-      
-     <!-- Start Col -->
-      <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-         <!-- Start Fetatures -->
-        <div class="feature-item featured-border2">
-           <div class="feature-icon float-left">
-             <i class="lni-briefcase"></i>
-           </div>
-           <div class="feature-info float-left">
-             <h4>Business Template</h4>
-             <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a decade,<br> we understand that’s your.</p>
-           </div>
-        </div>
-        <!-- End Fetatures -->
-      </div>
-       <!-- End Col -->
-      
-     <!-- Start Col -->
-      <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-         <!-- Start Fetatures -->
-        <div class="feature-item featured-border1">
-           <div class="feature-icon float-left">
-             <i class="lni-invention"></i>
-           </div>
-           <div class="feature-info float-left">
-             <h4>Clean & Trendy Design</h4>
-             <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a decade,<br> we understand that’s your.</p>
-           </div>
-        </div>
-        <!-- End Fetatures -->
-      </div>
-       <!-- End Col -->
-      
-     <!-- Start Col -->
-      <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-         <!-- Start Fetatures -->
-        <div class="feature-item featured-border2">
-           <div class="feature-icon float-left">
-            <i class="lni-layers"></i>
-           </div>
-           <div class="feature-info float-left">
-             <h4>Tons of Sections</h4>
-             <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a decade,<br> we understand that’s your.</p>
-           </div>
-        </div>
-        <!-- End Fetatures -->
-      </div>
-       <!-- End Col -->
-      
-     <!-- Start Col -->
-      <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-         <!-- Start Fetatures -->
-        <div class="feature-item featured-border3">
-           <div class="feature-icon float-left">
-             <i class="lni-reload"></i>
-           </div>
-           <div class="feature-info float-left">
-             <h4>Free Future Updates</h4>
-             <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a decade,<br> we understand that’s your.</p>
-           </div>
-        </div>
-        <!-- End Fetatures -->
-      </div>
-       <!-- End Col -->
-      
-     <!-- Start Col -->
-      <div class="col-lg-6 col-md-6 col-xs-12 p-0">
-         <!-- Start Fetatures -->
-        <div class="feature-item">
-           <div class="feature-icon float-left">
-             <i class="lni-support"></i>
-           </div>
-           <div class="feature-info float-left">
-             <h4>Premier Support</h4>
-             <p>Producing long lasting organic SEO results for <br> brand of different kinds for more than a decade,<br> we understand that’s your.</p>
-           </div>
-        </div>
-        <!-- End Fetatures -->
-      </div>
-       <!-- End Col -->
-      
-
-    </div>
-    <!-- End Row -->
-  </div>
+  
 </section>
 <!-- Cool Fetatures Section End --> 
 
@@ -724,6 +1969,101 @@
         });
       }
       </script>
+
+      <script>
+        let slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+        let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8", "mySlides9", "mySlides10", "mySlides11",
+                       "mySlides12", "mySlides13", "mySlides14", "mySlides15", "mySlides16", "mySlides17", "mySlides18", "mySlides19", "mySlides20", "mySlides21", "mySlides22"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+        showSlides(1, 2);
+        showSlides(1, 3);
+        showSlides(1, 4);
+        showSlides(1, 5);
+        showSlides(1, 6);
+        showSlides(1, 7);
+        showSlides(1, 8);
+        showSlides(1, 9);
+        showSlides(1, 10);
+        showSlides(1, 11);
+        showSlides(1, 12);
+        showSlides(1, 13);
+        showSlides(1, 14);
+        showSlides(1, 15);
+        showSlides(1, 16);
+        showSlides(1, 17);
+        showSlides(1, 18);
+        showSlides(1, 19);
+        showSlides(1, 20);
+        showSlides(1, 21);
+        
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+        
+        function showSlides(n, no) {
+          let i;
+          let x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}    
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+        </script>
+
+        <script>
+          let TextslideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+          let TextslideId = ["myTextSlides1", "myTextSlides2", "myTextSlides3", "myTextSlides4", "myTextSlides5", "myTextSlides6", "myTextSlides7", "myTextSlides8", "myTextSlides9", "myTextSlides10", "myTextSlides11",
+                             "myTextSlides12", "myTextSlides13", "myTextSlides14", "myTextSlides15", "myTextSlides16", "myTextSlides17", "myTextSlides18", "myTextSlides19", "myTextSlides20", "myTextSlides21", "myTextSlides22"]
+          TextshowSlides(1, 0);
+          TextshowSlides(1, 1);
+          TextshowSlides(1, 2);
+          TextshowSlides(1, 3);
+          TextshowSlides(1, 4);
+          TextshowSlides(1, 5);
+          TextshowSlides(1, 6);
+          TextshowSlides(1, 7);
+          TextshowSlides(1, 8);
+          TextshowSlides(1, 9);
+          TextshowSlides(1, 10);
+          TextshowSlides(1, 11);
+          TextshowSlides(1, 12);
+          TextshowSlides(1, 13);
+          TextshowSlides(1, 14);
+          TextshowSlides(1, 15);
+          TextshowSlides(1, 16);
+          TextshowSlides(1, 17);
+          TextshowSlides(1, 18);
+          TextshowSlides(1, 19);
+          TextshowSlides(1, 20);
+          TextshowSlides(1, 21);
+
+          function TextplusSlides(n, no) {
+            TextshowSlides(TextslideIndex[no] += n, no);
+          }
+          
+          function TextcurrentSlide(n, no) {
+            TextshowSlides(TextslideIndex[no] = n, no);
+          }
+          
+          function TextshowSlides(n, no) {
+            var i;
+            var slides = document.getElementsByClassName(TextslideId[no]);
+            var dots = document.getElementsByClassName("text-dot");
+            if (n > slides.length) {TextslideIndex[no] = 1}    
+            if (n < 1) {TextslideIndex[no] = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[TextslideIndex[no]-1].style.display = "block";  
+            dots[TextslideIndex[no]-1].className += " active";
+          }
+          </script>
 
   </body>
 </html>
