@@ -40,6 +40,18 @@ html {
     outline: none;
     transition: 0.4s;
   }
+
+  .accordion.lasttext {
+    background-color: #eee;
+    color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
   
 button.accordion {
     background-color: #eee;
@@ -64,6 +76,13 @@ button.accordion {
   /* Style the accordion panel. Note: hidden by default */
   .panel {
     padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s ease-out;
+  }
+
+  .panel2 {
   background-color: white;
   max-height: 0;
   overflow: hidden;
