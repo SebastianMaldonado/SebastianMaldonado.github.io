@@ -227,7 +227,7 @@ if (typeof Object.create !== "function") {
             width = $(base.options.responsiveBaseWidth).width();
 
             if (width > (base.options.itemsDesktop[0] || base.orignalItems)) {
-                base.options.items = base.orignalItems;
+                base.options.items = 1;
             }
             if (base.options.itemsCustom !== false) {
                 //Reorder array by screen size
@@ -342,7 +342,7 @@ if (typeof Object.create !== "function") {
 
         calculateWidth : function () {
             var base = this;
-            base.itemWidth = Math.round(base.$elem.width() / base.options.items);
+            base.itemWidth = Math.round(base.$elem.width() / base.options.items)/2;
         },
 
         max : function () {

@@ -354,7 +354,7 @@ a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 400;
@@ -388,7 +388,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    Section Title
    ========================================================================== */
 .section {
-  padding: 130px 0px; }
+  padding: 40px 0px; }
 
 .form-control:focus {
   outline: none;
@@ -1070,7 +1070,7 @@ button:focus {
    Showcase 
    ========================================================================== */
 #showcase {
-  padding-bottom: 375px; }
+  padding-bottom: 0px; }
   #showcase .right-position {
     position: relative; }
   #showcase .showcase-area {
@@ -1107,7 +1107,7 @@ button:focus {
     height: 15px; }
   #showcase .showcase-slider .screenshot-thumb {
     width: 100%;
-    height: 100%;
+    height:100%;
     position: relative; }
     #showcase .showcase-slider .screenshot-thumb .fancy-table {
       padding-top: 72px; }
@@ -1154,159 +1154,6 @@ button:focus {
   #showcase .showcase-slider .owl-wrapper-outer {
     padding: 20px 0px; }
 
-/* ==========================================================================
-   Testimonial section
-   ========================================================================== */
-#testimonial {
-  margin-bottom: 270px;
-  background: url(../img/bg/testimonial-bg.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  #testimonial .right-position {
-    position: relative; }
-  #testimonial .testimonial-area {
-    position: absolute;
-    width: 100%;
-    z-index: 12;
-    top: 260px;
-    margin: 0px auto; }
-  #testimonial #client-testimonial {
-    background-color: #fff;
-    padding: 54px;
-    -webkit-box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
-    -moz-box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
-    box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24); }
-    #testimonial #client-testimonial .content-inner p {
-      font-size: 24px;
-      color: #5e629c;
-      font-style: italic;
-      line-height: 35px; }
-    #testimonial #client-testimonial .author-info {
-      padding-top: 26px;
-      padding-bottom: 20px; }
-    #testimonial #client-testimonial .author-info h5 {
-      color: #151948;
-      font-size: 18px; }
-    #testimonial #client-testimonial h5 span {
-      font-size: 16px;
-      color: #5e629c;
-      font-style: italic; }
-    #testimonial #client-testimonial .owl-controls .owl-buttons div.owl-prev {
-      color: #3ecf8e;
-      display: inline-block;
-      zoom: 1;
-      *display: inline;
-      margin: 5px;
-      font-size: 16px;
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-      border-radius: 50px;
-      background: #fff;
-      filter: Alpha(Opacity=50);
-      position: absolute;
-      left: -20px;
-      top: 48%;
-      opacity: 1;
-      border: 1px solid #ccc;
-      width: 38px;
-      height: 38px;
-      padding: 8px 0px; }
-    #testimonial #client-testimonial .owl-controls .owl-buttons div.owl-next {
-      color: #3ecf8e;
-      display: inline-block;
-      zoom: 1;
-      *display: inline;
-      margin: 5px;
-      font-size: 16px;
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-      border-radius: 50px;
-      background: #fff;
-      filter: Alpha(Opacity=50);
-      position: absolute;
-      right: -20px;
-      top: 48%;
-      opacity: 1;
-      border: 1px solid #ccc;
-      width: 38px;
-      height: 38px;
-      padding: 8px 0px; }
-    #testimonial #client-testimonial .owl-controls .owl-buttons div.owl-prev:hover, #testimonial #client-testimonial .owl-controls .owl-buttons div.owl-next:hover {
-      color: #fff;
-      background: #3ecf8e;
-      border-color: #3ecf8e; }
-  #testimonial .video-promo-content {
-    padding-top: 0;
-    padding-bottom: 300px; }
-  #testimonial .video-play-button {
-    position: absolute;
-    z-index: 10;
-    top: 30%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    box-sizing: content-box;
-    display: block;
-    width: 32px;
-    height: 44px;
-    /* background: #fa183d; */
-    border-radius: 50%;
-    padding: 18px 20px 18px 28px; }
-  #testimonial .video-play-button:before {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 100px;
-    height: 100px;
-    background: #fff;
-    border-radius: 50%;
-    animation: pulse-border 1500ms ease-out infinite; }
-  #testimonial .video-play-button:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 100px;
-    height: 100px;
-    background: #fff;
-    border-radius: 50%;
-    transition: all 200ms;
-    opacity: 0.5; }
-  #testimonial .video-play-button:hover:after {
-    background-color: #28ca81; }
-  #testimonial .video-play-button:hover span {
-    border-left: 22px solid #fff;
-    border-top: 14px solid transparent;
-    border-bottom: 14px solid transparent;
-    border-radius: 2px; }
-  #testimonial .video-play-button span {
-    display: block;
-    position: relative;
-    z-index: 3;
-    width: 0;
-    height: 0;
-    border-left: 22px solid #3ecf8e;
-    border-top: 14px solid transparent;
-    border-bottom: 14px solid transparent;
-    border-radius: 2px;
-    margin-top: 8px;
-    margin-left: 5px; }
-
-@keyframes pulse-border {
-  0% {
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-    opacity: 1; }
-  100% {
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
-    opacity: 0; } }
 
 /* ==========================================================================
    Our Pricing 
